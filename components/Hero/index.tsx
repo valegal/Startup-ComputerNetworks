@@ -15,26 +15,23 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Startup & SaaS
-                </h1>
+                  Polaris                </h1>
+                  <p className="dark:text-indigo-300 mb-5 text-base !leading-relaxed text-indigo-300 sm:text-lg md:text-sm">SaaS de ejemplo para Redes de Computadores II</p>
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
+                <strong>Polaris Clear Frame Service</strong> es una startup SaaS que ofrece un servicio de software en la nube que permite a los usuarios tener una visualización completa de su <strong>progreso</strong> en un proyecto, las notas y archivos importantes, todo en una sola ventana.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    href="https://github.com/valegal"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    🔥 Get Pro
+                    🔥 Obtener PRO
                   </Link>
                   <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
+                    href="https://github.com/valegal"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    Star on GitHub
+                    Iniciar con GitHub
                   </Link>
                 </div>
               </div>

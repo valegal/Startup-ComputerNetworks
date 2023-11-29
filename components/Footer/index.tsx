@@ -14,20 +14,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="/images/logo/logo-2.svg"
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
-                  />
-                  <Image
-                    src="/images/logo/logo.svg"
-                    alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
-                  />
+                👽🤍🤍🤍🤍👽
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -97,15 +84,15 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Enlaces útiles
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/blogs"
+                      href="/support"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Blog
+                      Soporte
                     </a>
                   </li>
                   <li>
@@ -113,7 +100,7 @@ const Footer = () => {
                       href="/pricing"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Pricing
+                      Precios
                     </a>
                   </li>
                   <li>
@@ -121,17 +108,17 @@ const Footer = () => {
                       href="/about"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      About
+                      Nosotros 
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Terminos
                 </h2>
                 <ul>
                   <li>
@@ -160,9 +147,9 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            {/* <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Support & Help
@@ -194,15 +181,15 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                Next.js Templates
+              Desarrollado por{" "}
+              <a href="https://valentinagaleano.com" rel="nofollow noopener">
+                Valentina Galeano
               </a>
             </p>
           </div>

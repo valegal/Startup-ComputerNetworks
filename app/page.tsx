@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Servicio de algo",
-  description: "El home del servicio",
+  title: "Polaris",
+  description: "Polaris clear frame service es una forma ligera y ágil de desarrollar tus proyectos.",
   // other metadata
 };
 
@@ -29,7 +29,7 @@ export default function Home() {
       <AboutSectionTwo />
       <Testimonials />
       <Pricing />
-      <Blog />
+      {/* <Blog /> */}
       <Contact />
     </>
   );
